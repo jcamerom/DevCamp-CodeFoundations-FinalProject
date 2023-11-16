@@ -1,0 +1,96 @@
+/* General Navigation Wrapper */
+
+.navigation-wrapper {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Logo and Links */
+
+.navigation-wrapper > .logo-links-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+/* CodePen Logo */
+
+.navigation-wrapper > .logo-links-wrapper > .logo-column img {
+	height: 30px;
+	width: auto;
+	margin: 0 25px;
+}
+
+/* Links Column */
+
+.navigation-wrapper > .logo-links-wrapper > .links-column {
+	width: 450px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .explore {
+	font-weight: 700;
+	color: #f4e187;
+}
+
+/* Links Column - Links Wrapper */
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .nav-link a {
+	font-weight: 900;
+	color: white;
+	text-decoration: none;
+	font-size: 1.15em;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .nav-link a:hover {
+	color: #acacac;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron a {
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #acacac;
+	text-decoration: none;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron a:hover {
+	color: #c6c6c6;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron i {
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+
+/* Create, Search, Log in and Sign up */
+
+.navigation-wrapper > .create-login-signup-wrapper {
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 15px;
+	margin-right: 5px;
+}
+
+.navigation-wrapper > .create-login-signup-wrapper > .search-icon a {
+	color: #7b7e8b;
+	font-size: 2em;
+	margin: 0 10px;
+}
+
+.navigation-wrapper > .create-login-signup-wrapper > .search-icon a:hover {
+	color: #acacac;
+}
